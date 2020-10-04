@@ -1,0 +1,40 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Hazmi35 <contact@hzmi.xyz>",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.0.0",
+    "vue-router": "^3.4.5",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@hazmi35/eslint-config": "^1.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-pwa": "^4.5.6",
+    "@vue/cli-plugin-router": "^4.5.6",
+    "@vue/cli-plugin-typescript": "^4.5.6",
+    "@vue/cli-plugin-vuex": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/eslint-config-typescript": "^5.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "typescript": "^4.0.3",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

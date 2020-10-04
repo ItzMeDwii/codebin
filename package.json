@@ -1,0 +1,13 @@
+{
+  "name": "codebin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "hastebin alternative powered by vue",
+  "repository": "https://github.com/Hazmi35/codebin",
+  "license": "MIT",
+  "author": "Hazmi35 <contact@hzmi.xyz>",
+  "main": "index.js",
+  "workspaces": [
+    "app/*"
+  ]
+}
