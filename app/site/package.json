@@ -5,7 +5,8 @@
   "license": "MIT",
   "author": "Hazmi35 <contact@hzmi.xyz>",
   "scripts": {
-    "build": "vue-cli-service build",
+    "build": "yarn run lint && yarn run compile",
+    "compile": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "serve": "vue-cli-service serve"
   },
