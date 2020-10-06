@@ -6,4 +6,5 @@ declare global {
              type ElementClass = Vue;
              type IntrinsicElements = Record<string, any>;
     }
+    interface ElementAttributesProperty { $props }
 }
