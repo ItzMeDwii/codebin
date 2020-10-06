@@ -1,4 +1,4 @@
-name: Lint code & compile test
+name: "[Website] Lint code & compile test"
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
       run: yarn install --frozen-lockfile
 
     - name: Lint code
-      run: yarn workspace site run lint
+      run: yarn workspace website run lint
 
   compile:
     needs: lint
@@ -46,4 +46,4 @@ jobs:
         run: yarn install --frozen-lockfile
       
       - name: Test compile
-        run: yarn workspace site run compile && rm -rf dist
+        run: yarn workspace website run compile && rm -rf dist
