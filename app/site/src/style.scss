@@ -1,0 +1,40 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import "./colors.scss";
+
+#app {
+    min-height: 100vh;
+    font-family: Roboto , sans-serif !important;
+    background-color: var(--background-color) !important;
+    // background: url("/img/bg.svg"); // TODO: Beautify background? add animated background? wave animation background?
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: var(--navbar-color) !important;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    color: var(--text-color);
+}
+
+.btn {
+    color: var(--button-color) !important;
+}
+
+.text {
+    color: var(--text-color);
+}
+
+#editor {
+    height: 500px;
+    width: 100%;
+}
+
+/* .center {
+    min-height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+} */

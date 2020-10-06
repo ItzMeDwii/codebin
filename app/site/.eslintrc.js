@@ -13,7 +13,8 @@ module.exports = {
     parser: "vue-eslint-parser",
     parserOptions: {
         project: path.join(__dirname, "tsconfig.eslint.json"),
-        ecmaVersion: 2020
+        ecmaVersion: 2020,
+        createDefaultProgram: true
     },
     root: false,
     rules: {

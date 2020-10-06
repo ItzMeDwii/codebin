@@ -2,7 +2,7 @@ module.exports = {
     runtimeCompiler: true,
     productionSourceMap: true,
     configureWebpack: {
-        devtool: "nosources-source-map"
+        devtool: process.env.NODE_ENV === "development" ? "source-map" : "nosources-source-map"
     },
     pluginOptions: {
         i18n: {
