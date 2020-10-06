@@ -8,6 +8,6 @@
   "author": "Hazmi35 <contact@hzmi.xyz>",
   "main": "index.js",
   "workspaces": [
-    "app/*"
+    "apps/*"
   ]
 }
